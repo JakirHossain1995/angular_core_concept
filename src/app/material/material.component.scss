@@ -1,0 +1,26 @@
+@mixin box {
+ padding: 10px;
+ height: 200px;
+ width: 200px;
+ text-align: center;
+ margin: 5px
+}
+
+.hostListner{
+ @include box();
+ background-color: aqua;
+}
+
+.block2{
+    @include box;
+    background-color: yellow;
+}
+
+.container{
+    display: flex;
+}
+
+.block3{
+    @include box;
+    background-color: rgb(66, 243, 66);
+}

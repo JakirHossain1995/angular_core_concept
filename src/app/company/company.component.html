@@ -1,0 +1,9 @@
+<p>company works!</p>
+
+<div *ngFor="let element of response">
+    <ul>
+        <li>{{element.companyName}}</li>
+        <li>{{element.location | myPipe}}</li>
+        <li>{{element.id}}</li>
+    </ul>
+</div>

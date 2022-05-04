@@ -1,0 +1,73 @@
+div.reactiveForm{
+    text-align: center;
+    background-color: aliceblue;
+    /*background-image: url(https://source.unsplash.com/user/erondu);
+    /*background-image: url(naturalWallpaper.jpg);*/
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(255, 230, 0);
+    border: 3px solid lightgreen;
+    border-radius: 5px;
+}
+form{
+    background-color: lightgrey;
+    height: 480px;
+    width: 540px;
+    align-content: center;
+    margin: 15px;
+    border: 2px solid limegreen;
+    border-radius: 5px;
+}
+h1{
+    background-color: lightcoral;
+    height: 18%;
+    width: 100%;
+    margin: 0;
+    padding-top: 18px;
+    color: black;
+    border-radius: 2px;
+    margin-bottom: 23px;
+}
+
+form div.form-group{
+   text-align: left;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   width: 90%;
+}
+form div.radio-button{
+    padding-left: 25px;
+    text-align: left;
+    font-size: 16px;
+}
+form div.form-group input, select{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-color: cornflowerblue;
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 40px;
+}
+
+form button#submitButton{
+    height: 35px;
+    width: 99px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: blueviolet;
+    border-radius: 8px;
+    color: white;
+    background-color: crimson;
+}
+
+input.ng-touched.ng-invalid{
+    border: 1px solid red !important;
+    box-shadow: 0 0 13px inset rgba(255, 0, 0, 0.4);
+}
